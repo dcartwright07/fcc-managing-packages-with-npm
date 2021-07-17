@@ -4,14 +4,10 @@
 	"dependencies": {
 		"body-parser": "^1.15.2",
 		"cookie-parser": "^1.4.3",
-		"express": "^4.14.0",
-		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
+		"express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
-	},
-	"engines": {
-		"node": "^14.15.1"
 	}
 }
