@@ -3,9 +3,10 @@
 	"author": "Dominic Cartwright",
 	"description": "A project that does something awesome",
 	"keywords": [
-		"descriptive",
-		"related",
-		"words"
+		"freecodecamp",
+		"lesson",
+		"nodejs",
+		"node"
 	],
 	"dependencies": {
 		"express": "^4.14.0"
