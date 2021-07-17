@@ -5,7 +5,7 @@
 		"body-parser": "^1.15.2",
 		"cookie-parser": "^1.4.3",
 		"express": "^4.14.0",
-		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
+		"fcc-express-bground": "0.0.5"
 	},
 	"main": "server.js",
 	"scripts": {
