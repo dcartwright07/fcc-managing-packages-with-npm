@@ -2,6 +2,11 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "Dominic Cartwright",
 	"description": "A project that does something awesome",
+	"keywords": [
+		"descriptive",
+		"related",
+		"words"
+	],
 	"dependencies": {
 		"express": "^4.14.0"
 	},
