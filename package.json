@@ -8,6 +8,7 @@
 		"nodejs",
 		"node"
 	],
+	"license": "MIT",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
