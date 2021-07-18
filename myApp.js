@@ -1,6 +1,9 @@
 var express = require('express');
 var app = express();
 
+require("dotenv").config();
+var messageStyle = process.env.MESSAGE_STYLE;
+
 app.use("/public", express.static(__dirname + "/public"));
 
 app.get("/", function(req, res) {
@@ -8,16 +11,10 @@ app.get("/", function(req, res) {
 });
 
 app.get("/json", function (req, res) {
-	var message = "Hello json";
-
-	console.log(process.env.MESSAGE_STYLE);
-
-	if (process.env.MESSAGE_STYLE === "uppercase") {
-		message = message.toUpperCase();
-	}
+	console.log(messageStyle);
 
 	res.json({
-		message: message
+		message: process.env.MESSAGE_STYLE === "uppercase" ? "Hello json".toUpperCase() : "Hello json"
 	});
 })
 
